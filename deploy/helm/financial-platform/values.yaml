@@ -1,0 +1,33 @@
+replicaCount: 2
+
+image:
+  repository: yourregistry.azurecr.io/financial-platform-api
+  tag: latest
+  pullPolicy: IfNotPresent
+
+client:
+  enabled: true
+  image:
+    repository: yourregistry.azurecr.io/financial-platform-web
+    tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
+
+env:
+  OBO_REQUIRE_AUTH: "true"
+  DEMO_MODE: "true"
+  APIM_BASE_URL: "http://financial-platform-api:8000"
+  USE_MANAGED_IDENTITY: "true"
+
+# Mount Azure Key Vault / CSI secrets in production instead of plain env.
+secrets: {}
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 256Mi

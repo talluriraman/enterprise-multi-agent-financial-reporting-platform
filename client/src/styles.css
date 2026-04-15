@@ -1,0 +1,240 @@
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  line-height: 1.5;
+  color: #0f172a;
+  background: #f1f5f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: linear-gradient(120deg, #0f172a, #1e3a5f);
+  color: #f8fafc;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.25);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 650;
+}
+
+header p {
+  margin: 0.35rem 0 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+main {
+  flex: 1;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.hint {
+  font-size: 0.9rem;
+  color: #475569;
+  margin: 0 0 0.75rem;
+  line-height: 1.45;
+}
+
+.hint code {
+  font-size: 0.85em;
+  background: #e2e8f0;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+.card-guard {
+  border-left: 4px solid #2563eb;
+}
+
+.banner-guidance {
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 0.85rem;
+  background: #fef3c7;
+  border-radius: 8px;
+  color: #92400e;
+  font-size: 0.95rem;
+}
+
+.banner-demo {
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 0.85rem;
+  background: #e0e7ff;
+  border-radius: 8px;
+  color: #3730a3;
+  font-size: 0.95rem;
+}
+
+.banner-blocked {
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 0.85rem;
+  background: #fee2e2;
+  border-radius: 8px;
+  color: #991b1b;
+  font-size: 0.95rem;
+}
+
+.details-diagnostics {
+  margin: 0 1.5rem 1rem;
+}
+
+.details-diagnostics > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.card-report {
+  border: 1px solid #e2e8f0;
+}
+
+.report-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.btn-pdf {
+  background: #0f172a;
+  color: #f8fafc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-pdf:hover {
+  background: #334155;
+}
+
+.report-pdf {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: #0f172a;
+  min-height: 4rem;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font: inherit;
+  resize: vertical;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.status {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.report {
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.subh {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  color: #334155;
+}
+
+.json-block {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  overflow-x: auto;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.card-guidance {
+  border-left: 4px solid #ca8a04;
+  background: #fffbeb;
+}

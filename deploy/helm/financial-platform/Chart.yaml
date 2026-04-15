@@ -1,0 +1,6 @@
+apiVersion: v2
+name: financial-platform
+description: Enterprise Multi-Agent Financial Reporting Platform (POC)
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

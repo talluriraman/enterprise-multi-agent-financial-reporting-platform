@@ -1,0 +1,18 @@
+{
+  "year": 2026,
+  "currency": "USD",
+  "monthly": [
+    {"month": 1, "total_expenses": 124000, "categories": {"payroll": 82000, "cloud": 12000, "travel": 18000, "other": 12000}},
+    {"month": 2, "total_expenses": 118500, "categories": {"payroll": 81500, "cloud": 12500, "travel": 14000, "other": 10500}},
+    {"month": 3, "total_expenses": 126200, "categories": {"payroll": 83000, "cloud": 13000, "travel": 19200, "other": 11000}},
+    {"month": 4, "total_expenses": 121000, "categories": {"payroll": 82500, "cloud": 12800, "travel": 16000, "other": 10700}},
+    {"month": 5, "total_expenses": 129800, "categories": {"payroll": 84000, "cloud": 13200, "travel": 21000, "other": 11600}},
+    {"month": 6, "total_expenses": 123400, "categories": {"payroll": 82800, "cloud": 12900, "travel": 17500, "other": 10200}}
+  ],
+  "rag_chunks": [
+    "2026 Q1 expense policy emphasizes cloud cost optimization targets of 8% quarter-over-quarter.",
+    "Travel spend in 2026 is capped at $25k per month pending executive approval for overages.",
+    "Payroll remains the largest operating expense category for 2026 monthly reporting.",
+    "Internal control: expenses above $50k require dual approval in the finance workflow system."
+  ]
+}
