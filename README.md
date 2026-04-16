@@ -2,8 +2,6 @@
 
 POC for an enterprise-style multi-agent financial reporting stack: **LangGraph** orchestration, **input/output guard rails**, **tool calls** through an **APIM-style** HTTP client, **RAG** over internal sample 2026 ledger data, **OBO** (bearer) authentication hooks, **MSI** hooks for Azure AI Foundry, a **service bus** abstraction (no-op implementation), and **deployment** artifacts for **AKS** plus an **Azure Pipelines** skeleton.
 
-**Recording / demo prep:** step-by-step script and code walkthrough aligned to the architecture diagram — see [docs/RECORDING_GUIDE.md](docs/RECORDING_GUIDE.md).
-
 ## Architecture (POC)
 
 | Layer | Role |
@@ -117,4 +115,5 @@ deploy/            # Dockerfiles, Helm chart, Azure Pipelines skeleton
 
 Use and modify for internal POCs; add your organization’s license as needed.
 
-![Reference architecture (illustrative)](https://github.com/user-attachments/assets/e8b28825-3327-4f80-903d-a39228f12d35)
+<img width="940" height="457" alt="image" src="https://github.com/user-attachments/assets/85475c1f-f48d-4c00-998d-1e8ad63f1ff3" />
+
